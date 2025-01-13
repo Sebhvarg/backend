@@ -40,3 +40,6 @@ class LandingAPI(APIView):
 	        
          # Devuelve el id del objeto guardado
         return Response({"id": new_resource.key}, status=status.HTTP_201_CREATED)
+    
+  
+    
